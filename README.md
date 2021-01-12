@@ -9,23 +9,23 @@
 <p align="center">The best forum around there!</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/DiegoJunges/hackeroverflow-web?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/DiegoJunges/hackoverflow-web?color=%23FF9000">
 
   <a href="https://www.linkedin.com/in/diego-junges/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-Diego%20Junges-%23FF9000">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DiegoJunges/hackeroverflow-web?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DiegoJunges/hackoverflow-web?color=%23FF9000">
 
   <a href="https://github.com/DiegoJunges/gobarber-web/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DiegoJunges/hackeroverflow-web?color=%23FF9000">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DiegoJunges/hackoverflow-web?color=%23FF9000">
   </a>
 
   <a href="https://github.com/DiegoJunges/gobarber-web/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/DiegoJunges/hackeroverflow-web?color=%23FF9000">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/DiegoJunges/hackoverflow-web?color=%23FF9000">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/DiegoJunges/hackeroverflow-web?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/github/license/DiegoJunges/hackoverflow-web?color=%23FF9000">
 </p>
 
 <p align="center">

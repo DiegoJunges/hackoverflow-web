@@ -16,7 +16,7 @@ const InpuField: React.FC<InpuFieldProps> = ({
   }) => {
   let InputOrTextarea = Input;
   if (textarea) {
-    InputOrTextarea = Textarea;
+    InputOrTextarea = Textarea as any;
   }
   const [field, {error}] = useField(props);
   return (
