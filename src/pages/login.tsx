@@ -6,8 +6,6 @@ import InputField from '../components/InputField';
 import { MeDocument, MeQuery, useLoginMutation } from '../generated/graphql';
 import { toErrorMap } from '../utils/toErrorMap';
 import { useRouter } from 'next/router';
-import { withUrqlClient } from 'next-urql';
-import { createUrqlClient } from '../utils/createUrqlClient';
 import NextLink from 'next/link';
 import { withApollo } from '../utils/withApollo';
 

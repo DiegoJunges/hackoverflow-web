@@ -1,13 +1,10 @@
 import { Box, Button, Flex, Heading, Link, Stack, Text } from '@chakra-ui/core';
-import { withUrqlClient } from 'next-urql';
 import NextLink from 'next/link';
-import React, { useState } from 'react';
-import { Container } from '../components/Container';
+import React from 'react';
 import { EditDeletePostButtons } from '../components/EditDeletePostButtons';
 import { Layout } from '../components/Layout';
 import { UpdootSection } from '../components/UpdootSection';
-import { PostsQuery, usePostsQuery } from '../generated/graphql';
-import { createUrqlClient } from '../utils/createUrqlClient';
+import { usePostsQuery } from '../generated/graphql';
 import { withApollo } from '../utils/withApollo';
 
 const Index = () => {
@@ -72,27 +69,6 @@ const Index = () => {
                     limit: variables?.limit,
                     cursor: data.posts.posts[data.posts.posts.length - 1].createdAt,
                   },
-                  // updateQuery: (
-                  //   previousValue,
-                  //   {fetchMoreResult}
-                  //  ): PostsQuery => {
-                  //   if (!fetchMoreResult) {
-                  //     return previousValue as PostsQuery;
-                  //   }
-
-                  //   return {
-                  //     __typename: 'Query',
-                  //     posts: {
-                  //       __typename: 'PaginatedPosts',
-                  //       hasMore: (fetchMoreResult as PostsQuery).posts.hasMore,
-
-                  //       posts: [
-                  //         ...(previousValue as PostsQuery).posts.posts,
-                  //         ...(fetchMoreResult as PostsQuery).posts.posts
-                  //       ],
-                  //     },
-                  //   };
-                  // },
                 });
               }}
               isLoading={loading}
