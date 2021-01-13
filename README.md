@@ -40,7 +40,7 @@
 
 ## 📋 About the project
 
-The application have features like posts, the post owner can edit or delete the post, other users can upvote or downvote posts.
+The application is a forum and have features like posts, the post owner can edit or delete the post, other users can upvote or downvote posts.
 
 Infinite scroll has added, and switch mode(dark and light), register, login users too.
 
@@ -78,7 +78,7 @@ $ git clone https://github.com/DiegoJunges/hackoverflow-web.git && cd gobarber-w
 # Install the dependencies
 $ yarn
 
-# Be sure the file 'codegen.yml' have the IP to your API(Graphql standard's port: 4000)
+# Be sure the file '.env.local' have the IP to your API(Graphql standard's port: 4000)
 
 # Start the client
 $ yarn dev
