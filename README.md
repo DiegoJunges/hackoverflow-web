@@ -38,7 +38,7 @@
 
 </br>
 
-## 💇🏻‍♂️ About the project
+## 📋 About the project
 
 The application have features like posts, the post owner can edit or delete the post, other users can upvote or downvote posts.
 
